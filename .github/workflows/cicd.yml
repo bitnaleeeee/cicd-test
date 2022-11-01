@@ -20,7 +20,7 @@ jobs:
         with:
           args: --delete
         env:
-          AWS_REGION: "ap-northeast-2"
+        AWS_REGION: "ap-northeast-2"
           SOURCE_DIR: "build"
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
